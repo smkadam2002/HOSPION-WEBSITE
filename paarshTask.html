@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->  
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="https://hospione.com/assets/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" defer href="https://hospione.com/assets/front/css/all.min.css">
+    <link rel="stylesheet" href="https://hospione.com/assets/front/css/main.css">
+    <link rel="stylesheet" defer href="https://hospione.com/assets/front/css/responsive.css">
+    <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+    <title>Hospione</title>
+
+</head>
+
+<body> <!--  -->
+    <!-- provide alternative content for users -->
+    <noscript>
+       <!-- allows for tracking and managing another scripts -->
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3T88ZS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="header-top"> 
+        <div class="container"> <!--structure the content within the header-top section  B-->
+            <div class="row"><!--creating a grid layout  B-->
+                <div class="col-12"><!--single column that spans the entire width of the container. -->
+                    <div class="wrapper"><!-- group and organize the content within the column. CSS & JS-->
+                        <div class="soc-icons"><!-- contains social media icons or links. CSS -->
+                            <div class="search-box"><!-- applies some flexbox styling. It has an action attribute pointing to a search URL and uses the HTTP GET method to submit the form. -->
+                               
+                                <form class="d-flex" action="https://hospione.com/search" method="get">
+                                    <input type="text" name="search" class="input-search"
+                                        placeholder="Type to Search..." autocomplete="off" value="" required=""> <button
+                                        class="btn-search"><i class="fas fa-search"></i></button>
+                                </form>
+                            
+                            </div>
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg p-0"><!--navigation bar will expand to full width on large screens -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- conjunction with Bootstrap's collapse component-->>
+                                <ul class="navbar-nav ms-auto"><!-- represent a list of navigation items & right side of navbar -->>
+                                    <li class="nav-item">Home |</li>
+                                    <li class="nav-item">About Us |</li>
+                                    <li class="nav-item">Surgeries |</li>
+                                    <li class="nav-item">Blogs |</li>
+                                    <li class="nav-item">Contact |</li>
+                                    <li class="nav-item p-0 login">
+                                        Log In / Sign Up
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wrapper header-wrapper">
+                    <div class="logo">
+                        <a class="navbar-brand"><!-- branding purposes-->
+                            <img src="https://hospione.com/assets/front/images/logo.png"
+                                class="img-fluid" alt="Hospione"></a>
+                    </div>
+                    <div>
+                        <ul class="header-btn">
+                            <li class="call">
+                                <img src="https://hospione.com/assets/front/images/icon/icon-25.png" alt="phone"
+                                    width="40">
+                                <div>
+                                    <span>Toll Free No <br>
+                                    1800 666 888   </span>                            
+                                 </div>
+                            </li>
+                            <button type="button" class="btn btn-primary">Appointment</button>
+                            <button type="button" class="btn btn-primary">Location</button>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu"> <!--main navigation menu of the web -->
+        <div class="container">
+            <div class="row">
+                <ul class="nav">
+                    <li class="nav-item ">
+                        <a data-title="Orthopedics">
+                            <img src="https://hospione.com/uploads/frontend/speciality/1649240795_blog_icon-01.png"
+                                alt="Orthopedics" class="">Orthopedics </a>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444183_blog_icon-13.png"
+                            alt="Proctology" class="">Proctology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444325_blog_icon-08.png"
+                            alt="Cosmetic" class="">Cosmetic
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444387_blog_icon-04.png"
+                            alt="Ophthal" class="">Ophthal
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444263_blog_icon-17.png"
+                            alt="Laparoscopy" class="">Laparoscopy
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1666178072_blog_icon-40(2).png"
+                            alt="General" class="">General
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444453_blog_icon-10.png"
+                            alt="Gynecology" class="">Gynecology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444471_blog_icon-18.png"
+                            alt="Oncology" class="">Oncology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444226_blog_icon-03.png"
+                            alt="Urology" class="">Urology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444241_blog_icon-12.png"
+                            alt="Cardiology" class="">Cardiology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444646_blog_icon-06.png"
+                            alt="ENT" class="">ENT
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/1650444513_blog_icon-05.png"
+                            alt="Gastroenterology" class="">Gastroenterology
+
+                    </li>
+                    <li class="nav-item ">
+
+                        <img src="https://hospione.com/uploads/frontend/speciality/Gallstone.png" alt="Day Care"
+                            class="">Day Care
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header> <!--group together related content within document -->
+    <section class="banner">
+        <div class="container"> <!--group and apply styles to sets of content -->
+            <div class="row"><!--grid layout-->
+                <div class="col-6 banner-text"><!-- half of the available horizontal space in this particular row-->
+                    <h1>Find Specialized Docters </h1>
+                    <h1>& Get Quality Treatment</h1>
+                    <div class="row">
+                        <div class="col-3 icon"> <!--one quarter of the available horizontal space in this particular row. -->
+                            <img src="https://hospione.com/assets/front/images/icon/icon-37.png">
+                            <h6>Quality Care</h6>
+                        </div>
+                        <div class="col-3 icon">
+                            <img src="https://hospione.com/assets/front/images/icon/icon-34.png">
+                            <h6>Highly Skilled</h6>
+                        </div>
+                        <div class="col-3 icon">
+                            <img src="https://hospione.com/assets/front/images/icon/icon-35.png" >
+                            <h6>Safe Surgery</h6>
+                        </div>
+                        <div class="col-3 icon">
+                            <img src="https://hospione.com/assets/front/images/icon/icon-33.png">
+
+                            <h6>Assisted Insurance </h6>
+                        </div>
+                        <p> Usually we try to do as much as possible so that our patients does not have any difficulty and provides prompt treatment. </p>
+                        <div class="banner-btn">
+                            <button type="button" class="btn btn-primary">1800 666 888</button>
+
+                             <button type="button" class="btn btn-primary">Book Free Consultation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h3>Our Specialities</h3>
+                </div> <!--offset-md-1" adds a left margin equivalent to one column width.-->
+                <div class="col-md-10 offset-md-1 spec-box">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="speciality">
+                                    <img src="https://hospione.com/uploads/frontend/disease/1651209247_blog_THR.jpg">
+                                <h6>Hip Replacement</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="speciality">
+                                
+                                    <img src="https://hospione.com/uploads/frontend/disease/1651209073_blog_TKR.jpg"
+                                      >
+                                <h6>Knee Replacement</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="speciality">
+                          
+                                    <img src="https://hospione.com/uploads/frontend/disease/1651236161_blog_CABG.png"
+                                        >
+                                <h6>Bypass</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="speciality">
+                           
+                                    <img src="https://hospione.com/uploads/frontend/disease/1652694746_blog_Anal-Fissure.png"
+                                      >
+                                <h6>Anal fissure</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="speciality">
+                        
+                                    <img src="https://hospione.com/uploads/frontend/disease/1652694944_blog_Kidney-Stone.png"
+                                        >
+                                <h6>Kidney Stones</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="speciality">
+                                
+                                    <img src="https://hospione.com/uploads/frontend/disease/1651660285_blog_Hair-Transplant.png"
+                                      >
+                                <h6>Hair Transplant</h6>
+                            </div>
+                        </div> 
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="btn btn-primary"> View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h6>How HospiOne Works</h6>
+                    <h3>A Simplified Procedure To Cure Your Health</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 process text-center">
+                    <img src="https://hospione.com/assets/front/images/sp-1.png" loading="lazy" alt="Register"
+                        class="w-75">
+                    <h5>Registration </h5>
+                </div>
+                <div class="col-md-3 process text-center">
+                    <img src="https://hospione.com/assets/front/images/sp-2.png" loading="lazy"
+                        alt="Surgeons consultation" class="w-75">
+                    <h5>Talk to Specialist </h5>
+                </div>
+                <div class="col-md-3 process text-center">
+                    <img src="https://hospione.com/assets/front/images/sp-3.png" loading="lazy" alt="Book Surgery"
+                        class="w-75">
+                    <h5>Book Appointment </h5>
+                </div>
+                <div class="col-md-3 process text-center">
+                    <img src="https://hospione.com/assets/front/images/sp-4.png" loading="lazy" alt="Book Surgery"
+                        class="w-75">
+                        <h5>Choose A Doctors </h5>
+                    </div>
+                <div class="col-md-6 offset-md-3 process-box">
+                    <p>If you have difficulty understanding our Work process please 
+                        <a href="https://hospione.com/assets">contact us </a> for more information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="light-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <img src="https://hospione.com/assets/front/images/arogyasathi.png" alt="Hospione clinic near you"
+                        class="w-100 p-5">
+                </div>
+                <div class="col-lg-6 text-center side-text">
+                    <h4>Let's Talk With Your</h4>
+                    <h2>AAROGYA SATHI…</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labour magna aliquaLorem ipsum dolor sit</p>
+                    <div class="banner-btn mt-5">
+                        <button type="button" class="btn btn-primary">  1800 666 888 </button>
+                        <button type="button" class="btn btn-primary">Book Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 green-bg">
+                <div class="form-wrap">
+                    <h2 class="text-center">Let's Schedule Your Appointment</h2>
+                    <form action="#" id="commonAppointment" method="post">
+                        <input type="hidden" name="add_info" value="add_info">
+                        <input type="hidden" name="enqiury_from" value="1">
+                        <input type="hidden" name="preview_url" value="">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" name="name" placeholder="Patient Name"
+                                        data-validation="required" data-validation-error-msg="Enter Your Name">
+                                    <label for="fname">Enter Full Name <span class="req">*</span></label>
+                                </div>
+                            </div>
+                                <div class="col-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="name" placeholder="Patient Mobile"
+                                            data-validation="required" data-validation-error-msg="Enter Your Mobile Number">
+                                        <label for="fname">Enter Mobile Number <span class="req">*</span></label>
+                                    </div>
+                                </div>
+                            <div class="col-4">
+                                <div class="form-floating">
+                                    <select class="form-select" name="city">
+                                      
+                                        <option>Mumbai </option>
+                                        <option>Pune </option>
+                                        <option>Nifad </option>
+                                        <option>Nandurbar </option>
+                                        <option>Nashik </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-floating">
+                                    <select class="form-select" name="speciality" >
+                                        <option>Select Speciality</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-floating">
+                                    <select class="form-select" name="disease">
+                                        <option value="">Select Disease</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-dark">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h6>Why HospiOne</h6>
+                    <h3>We Provide Best Online Doctor Consultation For You</h3>
+                </div>
+                <div class="col-4 position-relative">
+                    <div class="why-box">
+                        <div>
+                            <h5>All Types Doctors & surgeons </h5>
+                            <p> Lorem ipsum dolor sit amet, cons adipiscing elt sed cosmo </p>
+                        </div>
+                        <img src="https://hospione.com/assets/front/images/why_1.png" loading="lazy"
+                            alt="All Types Doctors & surgeons ">
+                    </div>
+                    <div class="why-box">
+                        <div>
+                            <h5> Overall 50+ Treatments  </h5> 
+
+                        <p>   Lorem ipsum dolor sit amet cons adipiscing elit sed doesmo
+                                 </p>
+                        </div>
+                        <img src="https://hospione.com/assets/front/images/why_2.png" loading="lazy" alt="Overall 50+ Treatments">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="https://hospione.com/assets/front/images/circle_03.png" loading="lazy"
+                        alt="Consult with Expert" class="w-100">
+                        
+                </div>
+                <div class="col-4 position-relative">
+                    <div class="why-box1">
+                        <img src="https://hospione.com/assets/front/images/why_3.png" loading="lazy"
+                            alt="Difficulty In Getting The Required Information">
+                        <div>
+                            <h5>Overall Assistance Throughout Surgery</h5>
+
+                              <p>  Lorem ipsum dolor sit amet coms adipiscing elit sed doesme</p>
+                        </div>
+                    </div>
+                    <div class="why-box1">
+                        <img src="https://hospione.com/assets/front/images/why_4.png" loading="lazy"
+                            alt="Post Care Surgery Service ">
+                        <div>
+                            <h5>Post Care Surgery Service </h5>
+
+                               <p> Lorem ipsum dolor sit amet cons adipiscing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-dark">Get Free Consultation</button>
+            </div>
+        
+</section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="https://hospione.com/assets/front/images/app.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-8 text-left">
+                <div class="app-sec">
+                    <h6>DOWNLOAD OUR APP</h6>
+                    <h3>Download HospiOne App <br>
+                        From Your Mobile</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                    <div class="row mt-5">
+                        <div class="col-md-5 d-flex align-items-center">
+                            <h5><img src="https://hospione.com/assets/front/images/icon/icon-26.png" width="50">
+                                Video Consult With Doctors</h5>
+                        </div>
+                        <div class="col-md-5 d-flex align-items-center">
+                            <h5><img src="https://hospione.com/assets/front/images/icon/icon-33.png" width="50"> 
+                                Exclusive Healthcare</h5>
+                        </div>
+                        <div class="col-md-5 d-flex align-items-center">
+                            <h5><img src="https://hospione.com/assets/front/images/icon/icon-23.png" width="50">
+                                Ask Free Questions </h5>
+                        </div>
+                        <div class="col-5 d-flex align-items-center">
+                            <h5><img src="https://hospione.com/assets/front/images/icon/icon-28.png" width="50">
+                                Create an account and make easy treatment
+                            </h5>
+                        </div>
+                        <div class="col-3">
+                            <img src="https://hospione.com/assets/front/images/g-pl.png" alt="" class="w-100 p-2">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://hospione.com/assets/front/images/i-pl.png" alt="" class="w-100 p-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 app-bottom">
+                <h3>Get An Free Online Consultation <br> Over<a href="https://hospione.com/assets"> 50+</a> Surgeries 
+                </h3>
+                <div class="d-flex align-items-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing it <br>
+
+                        sed do eiumod tempor incididunt ut labore et dolore</p>
+                        <button type="button" class="btn btn-primary">Book Your Appointment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h6>Our Blogs</h6>
+                    <h3>Read our Latest Article </h3>
+                </div>
+               
+             
+                <div class="col-md-4 blog">
+                    <img src="https://hospione.com/uploads/frontend/blog_image/1694166965_blog_male-physiotherapist-checking-woman-s-knee-mobility.jpg"
+                        loading="lazy" alt="The Role of Physical Therapy in Knee Replacement Recovery"
+                        class="w-100"></a>
+                    <div class="actions">
+                        <p><i class="fas fa-user-alt"></i> Admin</p>
+                        <p><i class="far fa-calendar-alt"></i> 19 Sep, 2021</p>
+                    </div>
+                    <h4> Pioneering Discoveries In Inflammatory Bowel Disease
+                    </h4>
+                    <p>Luis ipsum suspendisse ultrices. Risus commodo viverra
+                    
+                        maecenas accumsan lacus vel facilisis</p>
+                    
+                        <a href="https://hospione.com/blogs">
+                            Read More </a>
+                        </div>
+                <div class="col-md-4 blog">
+                    <a
+                        href="https://hospione.com/blogs/orthopedics/life-after-knee-replacement-how-to-maximize-recovery-and-longevity"><img
+                            src="https://hospione.com/uploads/frontend/blog_image/1696571730_blog_knee01.jpg"
+                            loading="lazy" alt="Life After Knee Replacement: How to Maximize Recovery and Longevity"
+                            class="w-100"></a>
+                    <div class="actions">
+                        <p><i class="fas fa-user-alt"></i> Admin</p>
+                        <p><i class="far fa-calendar-alt"></i> 19 Sep, 2021</p>
+                    </div>
+                    <h4> Pioneering Discoveries In Inflammatory Bowel Disease
+                    </h4>
+                    <p>Luis ipsum suspendisse ultrices. Risus commodo viverra
+                    maecenas accumsan lacus vel facilisis</p>
+                    
+                    <a href="https://hospione.com/blogs">
+                        Read More</a>
+                </div>  
+                <div class="col-md-4 blog">
+                    <a
+                        href="https://hospione.com/blogs/orthopedics/everything-you-need-to-know-about-total-knee-replacement-surgery"><img
+                            src="https://hospione.com/uploads/frontend/blog_image/1696830747_blog_injured-man-doing-physiotherapy-exercises-walking(1).jpg"
+                            loading="lazy" alt="Everything You Need to Know About Total Knee Replacement Surgery"
+                            class="w-100"></a>
+                    <div class="actions">
+                        <p><i class="fas fa-user-alt"></i> Admin</p>
+                        <p><i class="far fa-calendar-alt"></i> 19 Sep, 2021</p>
+                    </div>
+                    <h4> Pioneering Discoveries In Inflammatory Bowel Disease
+                    </h4>
+                    <p>Luis ipsum suspendisse ultrices. Risus commodo viverra
+                    
+                        maecenas accumsan lacus vel facilisis</p>
+                   
+                        <a href="https://hospione.com/blogs">
+                            Read More</a>
+                        </div>
+                    </div>  
+                <div class="col-12 text-center mt-5">
+                    <a href="https://hospione.com/blogs" class="btn btn-primary btn-lg">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h6>Our Testimonials</h6>
+                    <h3>What Our Patient Says </h3>
+                    
+                    <p> <B>"</B>Since vindictively over agile the some far well besides constructively well airy then one during with close <br>excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic
+                         more some<br> apart dear boa much cast falcon a dwelled ouch busy.<B>"</B>
+                    </p>
+
+                    <br>
+                    <br>
+                    
+                        <h4>Mr. Dipti Deshmukh <br>CEO</h4>
+                        <div class="col-12 text-center mt-5">
+                            <a href="https://hospione.com/blogs" class="btn btn-primary btn-lg">    View All    </a>
+                            <br>
+                            <br>
+                            <br>
+
+
+                        </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 green-bg">
+                <div class="form-wrap"><span> 
+                    <h2 class="text-center">ARE YOU A SURGEON ?</h2>
+                    <h3 class="text-center">Join Our Team</h3> 
+                    <P class="text-center">  Luis ipsum suspendisse ultrices. Risus commodo viverra maecenas accumsan lacus vel facilisis.Luis
+                         ipsum suspendisse ultrices. Risus commodo viverra maecenas accumsan lacus vel facilisis</P>
+                        </span>
+
+                    <div class="banner-btn ">
+                        
+                        <button type="button" class="btn btn-primary">Contact Now</button>
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center">
+                    <h6>About Us</h6>
+                    <h3>WHAT IS HOSPIONE</h3>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://hospione.com/assets/front/images/abt.jpg" loading="lazy" alt="WHAT IS HOSPIONE"
+                        class="w-100 p-2">
+                </div>
+                <div class="col-md-6 abt pb-2">
+                    <h4>HospiOne is a chain of hospitals, clinics and doctors, with strategic tie-ups, delivering the best medical services to the patients.
+
+                    </h4>
+                    <p>
+                        The seeds were sown one and half years ago during the first wave of covid. The core Team of HospiOne managed majority of admissions, OPD consultations and counselling sessions which gave desired outcomes to our patients..Hospital will provide home services to senior citizens and bedridden patients in terms of nursing staff, physiotherapy and bedside medical care...
+
+                        HospiOne is a chain of hospitals, clinics and doctors, with strategic tie-ups, delivering the best medical services to the patients.
+                        
+                        The seeds were sown one and half years ago during the first wave of covid. The core Team of HospiOne managed majority of admissions, OPD consultations and counselling sessions which gave desired outcomes to our patients.
+                    </p>
+
+                      
+                </div>
+                <p>  The positive feedback from patients encouraged us to expand the services in Healthcare to further level. Highly experienced and qualified doctors enrolled into HospiOne will provide their services for pre operative check ups, pre operative fitness, as well as post operative care at their native places ensuring that the operating surgeon stays in touch throughout the process. Patients can avail diagnostic services, pathology and radiology services at affordable charges through HospiOne. Hospital will provide home services to senior citizens and bedridden patients in terms of nursing staff, physiotherapy and bedside medical care..
+                </p>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://hospione.com/assets/front/images/logo-white.png" alt="logo">
+                    <p class="footer-text">Lorem ipsum dolor, sit amet earum consectetur adipisicing elit. Cupiditate rerum quidem fugiat sapiente! lusto quae perspiciatis,
+                    </p>
+                    <ul>
+                        <li><i class="far fa-phone-alt me-2"></i> 1800 666 888
+                        </li>
+                        <li><i class="far fa-envelope me-2"></i> info@hospione.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Information</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Media</li>
+                        <li>Blog</li>
+                        <li>Privacy Policy</li>
+                        <li>FAQ's</li>
+                        <li>Terms & Condition</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Patient CARE</h4>
+                    <ul>
+                     
+                        <li><i class="far fa-angle-right"></i> Find a Doctor</li>
+                        <li><i class="far fa-angle-right"></i> Book Physical Appointment</li>
+                        <li><i class="far fa-angle-right"></i>
+                                Patient Testimonials</li>
+                        <li><i class="far fa-angle-right"></i>
+                            FAQ's</li>
+                       
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>CENTERS OF EXCELLENCE</h4>
+                    <ul>
+                        <li><i class="far fa-angle-right"></i>
+                            Orthopedics 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                            Cardiology 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                           Laparoscopy 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                           Proctology
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                            Urology 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                            Gastroenterology 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                            Cosmetic/Aesthetic 
+                        </li>
+                        <li><i class="far fa-angle-right"></i>
+                           Infertility 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Contact US</h4>
+                    <ul>
+                        <li><i class="far fa-angle-right"></i> Ask a Query </li>
+                        <li><i class="far fa-angle-right"></i> Get Your Feedback </li>
+                        <li><i class="far fa-angle-right"></i> Hospi One Lifeline</li>
+                        <li><i class="far fa-angle-right"></i> Become a arogyasathi</li>
+                        <li><i class="far fa-angle-right"></i>Career</li>
+                           
+                        
+                      
+                               
+                     
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+    <div class="modal fade" id="locationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content appoint-form-bg">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <div class="appoint-form">
+                                <h4>Popular Cities</h4>
+                                <hr>
+                                <div class="row cities">
+                                    <div class="col-md-3">
+                                        <h5> <a href="#" class="border-right location_id" data-id="2707"> Mumbai</a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5> <a href="#" class="border-right location_id" data-id="2724"> Nashik</a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5> <a href="#" class="border-right location_id" data-id="2763"> Pune</a> </h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h5> <a href="#" class="border-right location_id" data-id="2836"> Thane</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ 
+  
+</body>
+
+</html>
